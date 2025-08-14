@@ -13,7 +13,11 @@ public class ProductDemo {
 		s.nextLine();
 		String product_name=s.nextLine();
 		float price=s.nextFloat();
+		
+		
 		Product p3=new Product(sid,product_name,price);
+		
+		
 		System.out.println(p1);
 		System.out.println(p2);
 		System.out.println(p3);
