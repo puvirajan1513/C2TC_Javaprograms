@@ -1,4 +1,4 @@
-package Day3.Entity;
+package entity;
 
 public class Customer {
 	 private String customerName;

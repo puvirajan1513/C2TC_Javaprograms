@@ -1,7 +1,6 @@
-package Day3.Entity;
+package entity;
 
 public class TaxCalculation {
-	// function to calculate tax
 	public void calculateTax(Person person) {
 		if (person.getAge() > 65 || person.getGender().equalsIgnoreCase("female")) {
 			person.setTax(0);
@@ -18,4 +17,5 @@ public class TaxCalculation {
 			}
 		}
 	}
+
 }
