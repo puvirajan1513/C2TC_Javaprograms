@@ -1,4 +1,4 @@
-package day4.firstpackage;
+package day4.firstproject;
 
 public class Executor {
 
