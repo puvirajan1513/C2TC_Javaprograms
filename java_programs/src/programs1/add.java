@@ -15,6 +15,8 @@ public class add {
         b = Integer.parseInt(br.readLine());
         c = a + b;
 
+        
+        
         System.out.println("Sum is: " + c);
 
 
