@@ -4,10 +4,7 @@ import java.net.URL;
 
 public class FileReaderDemo {
 	 public static void main(String[] args) throws IOException {
-	        // Use the class loader to get the resource URL for the file in the same package
 	        URL resource = FileReaderDemo.class.getResource("javaprogram.txt");
-
-	        // Check if the resource URL is null (file not found)
 	        if (resource == null) {
 	            System.err.println("File not found");
 	            return; // Exit the program if file is not found
