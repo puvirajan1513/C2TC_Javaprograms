@@ -1,4 +1,4 @@
-package Day3.Entity;
+package constructor;
 
 
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package entity;
+package constructor;;
 
 public class Customer {
 	 private String customerName;
