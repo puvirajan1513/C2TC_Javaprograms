@@ -11,7 +11,7 @@ public class Throw {
 			System.out.println(a[7]);
 		}
 		catch(ArrayIndexOutOfBoundsException e){
-			System.out.println("Exception "+e.getMessage());
+			System.err.println("Exception "+e.getMessage());
 		}
 		
 		System.out.println("Next Line");

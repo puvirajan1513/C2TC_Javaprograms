@@ -17,13 +17,6 @@ public class MultipleCatchDemo {
 				numberThree = numberOne / numberTwo;
 				System.out.println("Division is " + numberThree);
 				break;
-			} catch (InputMismatchException e) {
-				// e.printStackTrace();
-				System.out.println("Invalid input. Please enter integers only.");
-				sc.nextLine();
-			} catch (ArithmeticException e) {
-				System.out.println("Exception caught: " + e.getMessage());
-				break;
 			} catch (Exception e) {
 				System.out.println("Exception caught: " + e.getMessage());
 				break;
