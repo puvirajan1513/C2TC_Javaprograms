@@ -1,4 +1,4 @@
-package day14;
+package day14.synchronization;
 
 public interface Bank {
 	int MINBAL=5000;

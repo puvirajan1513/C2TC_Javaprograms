@@ -1,4 +1,4 @@
-package day14;
+package day14.synchronization;
 
 public class AccountThread extends Thread{
 	private Account acc;
