@@ -18,7 +18,7 @@ public class ChildThread extends Thread {
 			}catch(InterruptedException e) {
 				System.err.println("Thread Interrupted: "+e.getMessage());
 			}
-			System.out.println(msg+i+" "+Thread.currenrThread().getName());
+			System.out.println(msg+i+" "+Thread.currentThread().getName());
 		}
 	}
 	
