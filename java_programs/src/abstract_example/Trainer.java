@@ -1,5 +1,6 @@
 package abstract_example;
 
+
 public abstract class Trainer {
 	
 	abstract void session();

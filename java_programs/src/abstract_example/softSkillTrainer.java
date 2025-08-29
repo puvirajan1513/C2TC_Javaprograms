@@ -1,5 +1,6 @@
 package abstract_example;
 
+
 public class softSkillTrainer extends Trainer {
 	
 	public void session() {

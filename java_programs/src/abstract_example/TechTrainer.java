@@ -1,3 +1,4 @@
+
 package abstract_example;
 
 public class TechTrainer extends Trainer {

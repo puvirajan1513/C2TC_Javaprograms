@@ -1,5 +1,6 @@
 package abstract_example;
 
+
 public class TNSCGDemo {
 
 	public static void main(String[] args) {

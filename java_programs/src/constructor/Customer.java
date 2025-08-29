@@ -1,4 +1,4 @@
-package constructor;;
+package constructor;
 
 public class Customer {
 	 private String customerName;
