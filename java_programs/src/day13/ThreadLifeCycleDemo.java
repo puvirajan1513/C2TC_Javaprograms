@@ -8,7 +8,7 @@ public class ThreadLifeCycleDemo {
 		myThread.start();
 
 		try {
-			Thread.sleep(4000);
+			Thread.sleep(1000);
 		} catch (InterruptedException exp) {
 			System.err.println("Thread is interrupted !");
 		}
