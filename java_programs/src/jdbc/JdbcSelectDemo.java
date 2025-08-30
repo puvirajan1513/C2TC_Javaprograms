@@ -4,9 +4,9 @@ import java.sql.*;
 public class JdbcSelectDemo {
 	
 	public static void main(String[] args) {
-        String url = "jdbc:postgresql://localhost:5432/employeedb"; // DB name
-        String user = "postgressql";    // your username
-        String password = "Bhumi.puvi1513"; // your password
+        String url = "jdbc:postgresql://localhost:5432/employees"; // DB name
+        String user = "postgres";    // your username
+        String password = "bhumi.puvi1513"; // your password
 
         Connection conn = null;
         Statement stmt = null;
@@ -24,15 +24,15 @@ public class JdbcSelectDemo {
             stmt = conn.createStatement();
 
             // Execute Query
-            String query = "SELECT id, name, city FROM employee";
+            String query = "SELECT eid, ename, ecity FROM emp";
             rs = stmt.executeQuery(query);
 
             // Process ResultSet
             System.out.println("Employee Details:");
             while (rs.next()) {
-                int id = rs.getInt("id");         // get int column
-                String name = rs.getString("name"); // get string column
-                String city = rs.getString("city"); // get string column
+                int id = rs.getInt("eid");         // get int column
+                String name = rs.getString("ename"); // get string column
+                String city = rs.getString("ecity"); // get string column
 
                 System.out.println("ID: " + id + " | Name: " + name + " | City: " + city);
             }
